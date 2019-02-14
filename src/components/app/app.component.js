@@ -25,13 +25,14 @@ const App = () => {
     secretAnswer
   }) => {
     updateUserDetails(prevState => {
-      return merge(prevState, {
+      const newState = {...prevState}
+      return merge(newState, {
         name,
         dateOfBirth,
         email,
         secretQuestion,
         secretAnswer
-      })
+      })            
     })
   }
 

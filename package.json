@@ -36,8 +36,8 @@
     "@reach/router": "^1.2.1",
     "babel-polyfill": "^6.26.0",
     "lodash.merge": "^4.6.1",
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "styled-components": "^4.1.2"
   }
 }
