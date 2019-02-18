@@ -11,9 +11,9 @@ export const Wrapper = styled.div`
   min-height: 100vh;
   padding: 10px;
   padding-bottom: 0;
-  color: #fff;    
+  color: #fff;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 `
 export const ContentWrapper = styled.div`
   max-width: 960px;
@@ -21,6 +21,6 @@ export const ContentWrapper = styled.div`
 `
 
 export const StyledRouter = styled(Router)`
-  width: 100%;  
+  width: 100%;
   margin-top: 3em;
 `

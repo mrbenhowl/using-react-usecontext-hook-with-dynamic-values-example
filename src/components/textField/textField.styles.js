@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.2em;  
+  margin-bottom: 1.2em;
   width: 100%;
   @media (min-width: 500px) {
     width: 400px;

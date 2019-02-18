@@ -10,12 +10,12 @@ export const Wrapper = styled.div`
   margin-bottom: 3em;
 `
 
-export const LoginDetails = styled.div`  
-  width: 100%;  
+export const LoginDetails = styled.div`
+  width: 100%;
 `
 
 export const ButtonWrapper = styled.div`
-  margin-top: 1em;  
+  margin-top: 1em;
 `
 
 export const FieldWrappers = styled.div`
