@@ -8,19 +8,17 @@ import Spinner from '../spinner'
 import LoadingProvider from '../loadingProvider'
 import UserDetailsProvider from '../userDetailsProvider'
 
-const App = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <LoadingProvider>
-        <Spinner />
-        <UserDetailsProvider>
-          <TitleBar />
-          <Main />
-        </UserDetailsProvider>
-      </LoadingProvider>
-    </>
-  )
-}
+const App = () => (
+  <>
+    <GlobalStyle />
+    <LoadingProvider>
+      <Spinner />
+      <UserDetailsProvider>
+        <TitleBar />
+        <Main />
+      </UserDetailsProvider>
+    </LoadingProvider>
+  </>
+)
 
 export default App
