@@ -8,3 +8,10 @@ https://medium.com/digio-australia/using-the-react-usecontext-hook-9f55461c4eae?
 yarn 
 yarn start
 ```
+
+or 
+
+```
+npm install 
+npm start
+```
